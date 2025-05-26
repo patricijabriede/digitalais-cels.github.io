@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans Digitālais Ceļš uz LU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation for all pages -->
+        <header class="navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="220" height="40">
+                        <rect x="5" y="5" width="210" height="30" rx="15" class="logo-box" />
+                        <text x="110" y="26" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="16"
+                            font-weight="500" class="logo-text">mans digitālais ceļš</text>
+                    </svg>
+                </div>
+                <nav>
+                    <ul>
+                        <li><button class="nav-btn active" data-page="sakums">Sākums</button></li>
+                        <li><button class="nav-btn" data-page="mans-stats">Mans stāsts</button></li>
+                        <li><button class="nav-btn" data-page="cels-uz-lu">Ceļš uz LU</button></li>
+                        <li><button class="nav-btn" data-page="digitalie-riki">Digitālie rīki</button></li>
+                        <li><button class="nav-btn" data-page="papildus">Papildus</button></li>
+                    </ul>
+                </nav>
+                <div class="dark-mode-switch">
+                    <label class="switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="mode-label">Tumšais režīms</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Sākums (Home) Section -->
+            <section id="sakums" class="page active">
+                <div class="page-container">
+                    <h1>Sākums</h1>
+                    <div class="hero-banner">
+                        <div class="banner-container">
+                            <div class="banner-path-visual">
+                                <div class="path-dot start"></div>
+                                <div class="path-line"></div>
+                                <div class="path-dot milestone"></div>
+                                <div class="path-line"></div>
+                                <div class="path-dot milestone"></div>
+                                <div class="path-line"></div>
+                                <div class="path-dot end"></div>
+                                <div class="floating-icon icon1"><i class="digital-icon">📚</i></div>
+                                <div class="floating-icon icon2"><i class="digital-icon">💻</i></div>
+                                <div class="floating-icon icon3"><i class="digital-icon">🎓</i></div>
+                            </div>
+                            <div class="banner-text">
+                                <h1>Mans Digitālais Ceļš</h1>
+                                <p>Personīgā pieredze digitālajā vidē Latvijas Universitātē</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-box">
+                        <h2>Par šo vietni</h2>
+                        <p>Šī vietne ir veltīta digitālajai pieredzei Latvijas Universitātē, piedāvājot personīgu
+                            ceļojumu caur modernajām tehnoloģijām un digitālajiem rīkiem, kas palīdz studiju procesā.
+                        </p>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <h3>Personīgais stāsts</h3>
+                                <p>No apjukuma līdz pārliecībai – kā digitālie rīki mainīja manu pieeju studijām.</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>Noderīgi resursi</h3>
+                                <p>LU vietnes, studiju grupas un dokumentu aprite, kas palīdzēja sagatavoties un
+                                    pielāgoties.</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>Digitālie rīki</h3>
+                                <p>Efektīvi rīki plānošanai, organizācijai un produktivitātei studentu ikdienā.</p>
+                            </div>
+                        </div>
+                        <p class="intro-footer">Šī vietne ir izveidota, lai dalītos pieredzē un palīdzētu citiem
+                            studentiem veiksmīgāk izmantot digitālās iespējas universitātē.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mans stāsts (My Story) Section -->
+            <section id="mans-stats" class="page">
+                <div class="page-container">
+                    <h1>Mans stāsts</h1>
+                    <div class="content-box">
+                        <h3>Mans digitālais stāsts</h3>
+                        <p>Digitālā pieredze ir būtiski mainījusi manu studiju pieeju. Sākumā viss šķita mulsinošs –
+                            daudz platformu, daudz informācijas, bet ar laiku es iemācījos strukturēt savu vidi, lai tā
+                            atbalsta manu mācību procesu. Digitālā pasaule man sniedza elastību, ātrumu un piekļuvi
+                            resursiem jebkurā laikā. Tas viss ļāva mācīties efektīvāk un kļūt neatkarīgākai savā pieejā
+                            zināšanām. Manuprāt, digitālā vide sniedz brīvību – gan laikā, gan telpā. Spēja piekļūt
+                            lekciju
+                            ierakstiem, izmantot digitālos kalendārus un uzdevumu sarakstus nozīmē, ka es varu labāk
+                            pārvaldīt savu dienu. Turklāt, rīki kā Notion un Moodle nodrošina vienuviet pārskatāmu
+                            studiju vidi, kurā viss ir sakārtots. Arī komunikācija ar docētājiem un kursabiedriem ir
+                            kļuvusi ērtāka, pateicoties e-pastiem, forumiem un platformām kā Discord.</p>
+
+                        <div class="timeline">
+                            <h4>Laika līnija</h4>
+                            <div class="timeline-item"><span class="timeline-year">2022</span><span
+                                    class="timeline-content">Uzsāku studijas un iepazinos ar LU digitālo vidi</span>
+                            </div>
+                            <div class="timeline-item"><span class="timeline-year">2023</span><span
+                                    class="timeline-content">Atklāju Google Calendar un Notion kā ikdienas rīkus</span>
+                            </div>
+                            <div class="timeline-item"><span class="timeline-year">2024</span><span
+                                    class="timeline-content">Sāku palīdzēt kursabiedriem apgūt digitālos rīkus</span>
+                            </div>
+                            <div class="timeline-item"><span class="timeline-year">2025</span><span
+                                    class="timeline-content">Izveidoju šo vietni kā daļu no studiju projekta</span>
+                            </div>
+                        </div>
+
+                        <div class="experience">
+                            <h4>Digitālā ceļojuma posmi</h4>
+                            <p>No Moodle līdz Notion – katrs posms ir veidojis manu pieeju mācībām un produktivitātei.
+                                Esmu mācījusies ne tikai izmantot rīkus, bet arī attīstīt digitālu domāšanu – filtrēt
+                                informāciju, atrast uzticamus avotus un pašvadīt savu mācību procesu.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ceļš uz LU Section -->
+            <section id="cels-uz-lu" class="page">
+                <div class="page-container">
+                    <h1>Ceļš uz LU</h1>
+                    <div class="content-box">
+                        <h3>Digitālie rīki ceļā uz LU</h3>
+                        <p>Ceļā uz Latvijas Universitāti mani ļoti atbalstīja dažādi digitālie rīki. LU oficiālā
+                            mājaslapa, e-paraksts un tiešsaistes studentu kopienas bija neatņemama manas pieteikšanās
+                            pieredzes daļa – tie padarīja procesu vienkāršāku, palīdzēja atrast nepieciešamo informāciju
+                            un justies pārliecinātākai par savu izvēli.</p>
+                        <div class="resources-grid">
+                            <div class="resource-card">
+                                <h4>LU oficiālā vietne</h4>
+                                <p>LU oficiālā mājaslapa bija mans galvenais ceļvedis studiju virziena izvēlē. Studiju
+                                    programmu salīdzinātājs un fakultāšu apraksti ļāva man saprast, kuras programmas
+                                    vislabāk atbilst manām interesēm. Turpat arī iepazinos ar svarīgām sistēmām, kā
+                                    piemēram LUIS – studentu informācijas sistēmu, kurā vēlāk reģistrējos studiju
+                                    kursiem un skatījos atzīmes – un e-studijām, kas kļuva par galveno vietu lekciju
+                                    materiālu un uzdevumu saņemšanai.</p>
+                            </div>
+                            <div class="resource-card">
+                                <h4>E-paraksts</h4>
+                                <p>Elektroniskais paraksts ir ļoti svarīgs rīks katram studentam jau no pirmās dienas.
+                                    Tas ļauj droši un ātri parakstīt studiju procesā nepieciešamos dokumentus tiešsaistē
+                                    – sākot no iestāšanās pieteikumiem un līgumiem līdz pat vēlākām studiju
+                                    formalitātēm. Vislabāk e-parakstu izveidot uzreiz pēc iestāšanās, jo vēlāk to
+                                    izdarīt var būt sarežģīti vai pat par vēlu. Man e-paraksts studiju laikā ietaupīja
+                                    daudz laika un rūpju, jo visus dokumentus varēju parakstīt attālināti, bez papīru
+                                    kārtošanas.</p>
+                            </div>
+                            <div class="resource-card">
+                                <h4>LU sociālās platformas</h4>
+                                <p>LU studentu vidū populāras ir dažādas tiešsaistes saziņas platformas. Facebook
+                                    grupas, Instagram
+                                    un Discord serveri, un nevar nepieminēt pirmsstudiju pasākumus un iespēju izvēlēties
+                                    sev mentoru dod iespēju jau pirms semestra sākuma iepazīties ar
+                                    kursabiedriem, uzdot jautājumus un saņemt padomus. Pievienojoties šīm kopienām, es
+                                    ātri atradu draudzīgu atbalstu un noderīgu informāciju, kas palīdzēja man vieglāk
+                                    iejusties universitātes dzīvē. Biju iepazinies ar dažiem kursabiedriem vēl pirms
+                                    pirmajām lekcijām un zināju, pie kā vērsties, ja radās kādi jautājumi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Digitālie rīki Section -->
+            <section id="digitalie-riki" class="page">
+                <div class="page-container">
+                    <h1>Digitālie rīki</h1>
+                    <div class="content-box">
+                        <h3>Rīki manai studiju ikdienai</h3>
+                        <p>No lekciju grafika veidošanas līdz uzdevumu sarakstiem un motivējošiem pierakstiem –
+                            digitālie rīki ir kļuvuši par maniem ikdienas sabiedrotajiem studiju laikā. Tie palīdz
+                            neapjukt pienākumu daudzumā, labāk pārvaldīt laiku un saglabāt līdzsvaru starp mācībām un
+                            atpūtu.</p>
+                        <div class="digital-tools-grid">
+                            <div class="tool-card">
+                                <h4>Google Calendar</h4>
+                                <p>Google Calendar ir mans centrālais plānošanas rīks, bez kura ikdiena vairs nav
+                                    iedomājama. Tajā es atzīmēju ne tikai lekcijas, bet arī nodošanas termiņus,
+                                    konsultācijas ar pasniedzējiem, brīvdienas un pat personīgus notikumus. Kalendārs
+                                    palīdz vizualizēt manu nedēļu un sadalīt laiku tā, lai viss būtu līdzsvarā. Lielākā
+                                    priekšrocība ir sinhronizācija – tas vienlaikus darbojas gan datorā, gan telefonā,
+                                    un var tikt integrēts ar citiem rīkiem (piemēram, uzdevumu lietotnēm vai Notion).
+                                    Pateicoties automātiskajiem atgādinājumiem, es reti ko palaidu garām.</p>
+                            </div>
+                            <div class="tool-card">
+                                <h4>Notion</h4>
+                                <p>Notion ir kļuvis par manu digitālo pierakstu burtnīcu, projektu plānotāju un radošo
+                                    ideju uzglabātāju vienā. Es tajā veidoju lekciju kopsavilkumus, pārskatus pirms
+                                    eksāmeniem, grupu darba plānus, kā arī privātus ierakstus ar mērķiem un motivējošām
+                                    domām. Tas ļauj viegli strukturēt informāciju tabulās, sarakstos vai vizuālās lapās,
+                                    ko es varu personalizēt pēc saviem ieskatiem. Iespēja izmantot “templates” (veidnes)
+                                    padara organizēšanu ātru un radošu. Pateicoties tam, Notion kalpo ne tikai kā mācību
+                                    rīks, bet arī kā pašizaugsmes platforma.</p>
+                            </div>
+                            <div class="tool-card">
+                                <h4>Todoist</h4>
+                                <p>Todoist palīdz man sakārtot visas dienas un nedēļas prioritātes – gan studijās, gan
+                                    ārpus tām. Es veidoju atsevišķus sarakstus katram kursam vai projektam, uzstādu
+                                    termiņus un norādu uzdevumu prioritātes. Piemēram, "izpildīt aptauju LUIS", "nodot
+                                    referātu līdz piektdienai", vai pat "nopirkt printera tinti". Tā ir kā mana digitālā
+                                    atmiņa – it īpaši brīžos, kad pienākumu ir daudz un galva ir pilna ar domām.
+                                    Atgādinājumi un iespēja sadalīt lielākus darbus mazākos posmos palīdz nejusties
+                                    pārņemtiem. Kad uzdevums ir paveikts, to var svinīgi atzīmēt kā “gatavs” – kas dod
+                                    patīkamu motivācijas sajūtu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Papildus Section -->
+            <section id="papildus" class="page">
+                <div class="page-container">
+                    <h1>Papildus</h1>
+                    <div class="content-box">
+                        <h3>Citi noderīgi resursi</h3>
+                        <p>Studiju laikā esmu iepazinusi vairākas aplikācijas un rīkus, kas palīdz ne tikai mācībās, bet
+                            arī ikdienas organizācijā, produktivitātē un mentālajā līdzsvarā. Zemāk atradīsiet dažas no
+                            tām ar saitēm un īsiem aprakstiem.</p>
+
+                        <div class="resource-links">
+                            <h4>Resursi un ieteikumi</h4>
+                            <ul>
+                                <li><a href="https://estudijas.lu.lv" target="_blank">LU e-studiju vide (Moodle)</a> –
+                                    centrālā platforma lekciju materiāliem un iesniegumiem.</li>
+                                <li><a href="https://www.notion.so/" target="_blank">Notion</a> – universāls rīks
+                                    pierakstiem, projektu plānošanai un studiju organizēšanai.</li>
+                                <li><a href="https://www.forestapp.cc/" target="_blank">Forest</a> – aplikācija, kas
+                                    palīdz koncentrēties, izmantojot pomodoro metodi un stādot digitālus kokus.</li>
+                                <li><a href="https://calendar.google.com/" target="_blank">Google Calendar</a> –
+                                    termiņu, lekciju un brīvdienu plānošanai.</li>
+                                <li><a href="https://todoist.com/" target="_blank">Todoist</a> – uzdevumu pārvaldības
+                                    rīks ar dienas un nedēļas pārskatiem.</li>
+                                <li><a href="https://trello.com/" target="_blank">Trello</a> – projektu sadalīšanai pa
+                                    fāzēm un grupas darbu pārvaldīšanai.</li>
+                                <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> – resursi
+                                    papildus mācībām, īpaši eksaktajās zinātnēs.</li>
+                                <li><a href="https://slack.com/" target="_blank">Slack</a> – efektīva saziņa studiju
+                                    grupās un projektu komandās.</li>
+                            </ul>
+                        </div>
+
+                        <p>Visi šie rīki ir palīdzējuši man strukturēt mācību materiālus, sadalīt lielus uzdevumus
+                            mazākos un saglabāt motivāciju visa semestra garumā. Ceru, ka kāds no tiem noderēs arī Tev!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="faculty-info">
+                <p>LATVIJAS UNIVERSITĀTES EKSAKTO ZINĀTŅU UN TEHNOLOĢIJU FAKULTĀTE @ Patrīcija Briede</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
